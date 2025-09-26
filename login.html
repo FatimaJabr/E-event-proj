@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Event (Login)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://eevent-api.vercel.app/appsetting/1737007771039-find-e-event.svg" alt="logo E-Event" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./event.html">Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex mt-3 mt-lg-0" role="login">
+          <button class="btn btnlog" type="submit"><a href="./login.html">Login</a></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="page-bg">
+    <div class="center-wrapper">
+      <div class="login">
+        <h1>Login Your Account</h1>
+        <p>Please enter your to access your account.</p>
+        <form class="loginput">
+          <input type="email" name="email" placeholder="user@eevent.com" required>
+          <div class="complog">
+            <input type="password" name="password" placeholder="Password*" id="password" required>
+            <button type="button" class="toggle-pass" aria-label="Show password">
+              <i class="fa-regular fa-eye"></i>
+            </button>
+          </div>
+          <label class="form-check align-start">
+            <input class="form-check-input" type="checkbox" id="rememberMe">
+            <span class="form-check-label">Remember me</span>
+          </label>
+          <button type="submit" class="login-button btn btn-primary">Login</button>
+        </form>
+        <a class="forgot-password" href="#">Forgot Password?</a>
+        <div class="divider"><span>Or</span></div>
+        <button type="button" class="social-card">
+          <img src="https://eevent-website.vercel.app/static/media/googlelogo.06ed31653da62c3f3d458c4e354b7ac7.svg"
+            alt="Google">
+          <span>Google</span>
+        </button>
+        <button type="button" class="social-card">
+          <img src="https://eevent-website.vercel.app/static/media/Facebooklogin.b8cc6ebdea0e227b407ebf2ce3367dce.svg"
+            alt="Facebook">
+          <span>Facebook</span>
+        </button>
+        <p class="Register">
+          Don't have an account?
+          <a href="#">Register</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-col about">
+        <img src="https://eevent-api.vercel.app/appsetting/1737007771039-find-e-event.svg" alt="logo"
+          class="footer-logo" />
+        <p>Find E-Event is your go-to destination for creating unforgettable events. From planning and organizing to
+          execution, we specialize in making every moment special with precision and creativity.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Search</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Concert</a></li>
+          <li><a href="#">Conference</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Travel</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul>
+          <li><i class="fa-solid fa-location-dot"></i> 123 Serenity Lane, Cityscape, New York, NY 10001, USA</li>
+          <li><i class="fa-solid fa-phone"></i> +1 (123) 456-7890</li>
+          <li><i class="fa-solid fa-envelope"></i> info@finde-event.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      <p>Copyright © 2025 Find E-Event. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

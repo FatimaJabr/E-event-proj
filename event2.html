@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>E-Event (Event)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="./main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body style="background-color:rgb(223, 231, 237);">
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://eevent-api.vercel.app/appsetting/1737007771039-find-e-event.svg" alt="logo E-Event" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./event.html">Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex mt-3 mt-lg-0" role="login">
+                    <button class="btn btnlog" type="submit"><a href="./login.html">Login</a></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <div class="event-wrapper info">
+            <img src="./imgs/fe1.jpg" alt="Event Image" class="event-img">
+
+            <div class="event-info row text-white gx-4 gy-3">
+                <div class="col-6 col-md">
+                    <i class="bi bi-calendar-event"></i>
+                    <h6>START DATE</h6>
+                    <p>25 Dec 2026</p>
+                </div>
+                <div class="col-6 col-md">
+                    <i class="bi bi-calendar2-check"></i>
+                    <h6>END DATE</h6>
+                    <p>25 Dec 2026</p>
+                </div>
+                <div class="col-6 col-md">
+                    <i class="bi bi-clock"></i>
+                    <h6>TIME</h6>
+                    <p>from 12:00 AM <br> to 12:00 AM<br>(UTC)</p>
+                </div>
+                <div class="col-6 col-md">
+                    <i class="bi bi-door-closed"></i>
+                    <h6>ROOM</h6>
+                    <p>-</p>
+                </div>
+                <div class="col-12 col-md">
+                    <i class="bi bi-geo-alt"></i>
+                    <h6>LOCATION</h6>
+                    <p>Bottom of the Hill,<br>1233 17th Street,<br>San Francisco,<br>California</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-md-6 d-flex gap-3">
+                <img src="./imgs/event21.jpg" class="img-fluid rounded img-sm" alt="">
+                <img src="./imgs/event22.jpg" class="img-fluid rounded img-sm" alt="">
+                <img src="./imgs/event23.jpg" class="img-fluid rounded img-sm" alt="">
+            </div>
+
+            <div class="col-md-6">
+                <div class="location-badge mb-3">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    Bottom of the Hill, 1233 17th Street, San Francisco, California
+                </div>
+
+                <h3 class="fw-bold">Christmas Event In The City</h3>
+                <p class="text-muted">
+                    Experience the magic of Christmas in the heart of the city with dazzling lights,
+                    festive decorations, and joyful music. Enjoy live performances, Christmas markets,
+                    delicious seasonal treats, and fun activities for all ages. Don’t miss the grand
+                    Christmas tree lighting and a special visit from Santa Claus!
+                </p>
+
+                <div class="d-flex justify-content-between align-items-center mt-4">
+                    <button class="btn custom-btn">Book Ticket</button>
+                    <span class="fw-bold salary-text">$ 50</span>
+                </div>
+            </div>
+        </div>
+        <div class="map-wrapper">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d50465.00728823463!2d-122.396417!3d37.765122!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzfCsDQ1JzU0LjQiTiAxMjLCsDIzJzQ3LjEiVw!5e0!3m2!1sar!2sus!4v1758392621652!5m2!1sar!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="RELATEDEVENT">
+            <h2>RELATED EVENT</h2>
+            <p class="par">Discover events that match your interests <br> and bring your passions to life!</p>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card event-card">
+                        <div class="img-container">
+                            <span class="event-price">$100</span>
+                            <img src="https://eevent-api.vercel.app/eventimg/1741772165036-e2b01f64de5508ec4cccdb25b420de4e.png"
+                                class="card-img-top" alt="Christmas Event In The City">
+                            <span class="event-date">15 AUG 2025</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Joget-in Fest (Jogja)</h5>
+                            <p class="card-text location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                301 Dover Street, Dover, DE 19901, Dover, Delaware
+                            </p>
+                            <a href="#" class="btn btnf">Get Ticket</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card event-card">
+                        <div class="img-container">
+                            <span class="event-price">$50</span>
+                            <img src="https://eevent-api.vercel.app/eventimg/1741861068482-14435581.jpg"
+                                class="card-img-top" alt="Sports Mania Tournament">
+                            <span class="event-date">15 AUG 2025</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Global Culture Fest</h5>
+                            <p class="card-text location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                1 Summerknoll Cir, Newark, DE 19711-2488, Newark, Delaware
+                            </p>
+                            <a href="#" class="btn btnf">Get Ticket</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card event-card">
+                        <div class="img-container">
+                            <span class="event-price">$20</span>
+                            <img src="https://eevent-api.vercel.app/eventimg/1741864648133-wp4223897.webp"
+                                class="card-img-top" alt="Online Yoga Class">
+                            <span class="event-date">15 AUG 2025</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Celestia Lights Festival</h5>
+                            <p class="card-text location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                1234 Orange Avenue, Orlando, FL 32801, Orlando, Florida
+                            </p>
+                            <a href="#" class="btn btnf">Get Ticket</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col about">
+                <img src="https://eevent-api.vercel.app/appsetting/1737007771039-find-e-event.svg" alt="logo"
+                    class="footer-logo" />
+                <p>Find E-Event is your go-to destination for creating unforgettable events. From planning and
+                    organizing to
+                    execution, we specialize in making every moment special with precision and creativity.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Search</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Concert</a></li>
+                    <li><a href="#">Conference</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Travel</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> 123 Serenity Lane, Cityscape, New York, NY
+                        10001, USA</li>
+                    <li><i class="fa-solid fa-phone"></i> +1 (123) 456-7890</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@finde-event.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom text-center">
+            <p>Copyright © 2025 Find E-Event. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="./event2.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
